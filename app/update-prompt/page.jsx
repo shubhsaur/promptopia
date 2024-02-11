@@ -71,4 +71,10 @@ const EditPrompt = () => {
   )
 }
 
-export default EditPrompt
+const EditPromptWrapper = () => (
+	<Suspense>
+		<EditPrompt />
+	</Suspense>
+)
+
+export default EditPromptWrapper
