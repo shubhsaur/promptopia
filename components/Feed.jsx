@@ -55,7 +55,7 @@ const Feed = () => {
       setTimeout(() => {
         const searchResult = filterPrompts(e.target.value);
         setSearchedResults(searchResult);
-      }, 500)
+      }, 600)
     );
   };
 
